@@ -1,0 +1,248 @@
+body {
+    background-image: url('background_real.jpg');
+    background-size: cover;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.nama1 a,.nama2 a{
+   text-decoration: none;
+}
+
+.nama1 a {
+    color: white;
+}
+
+.nama {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    text-transform: capitalize;
+    height: inherit;
+    
+    width: 200px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.nama_ {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 0, 0, 0.2);
+    backdrop-filter: blur(20px);
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+.nama1 {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.nama2 a {
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: 500;
+    color: blueviolet;
+}
+
+.nav-bar {
+    display: flex;
+    position: fixed;
+    top: 10px;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    z-index: 1;
+    align-items: center;
+}
+
+
+.nav-bar ul li {
+    display: inline-block;
+    padding-right: 30px;
+    box-sizing: border-box;
+    padding: 20px 15px;
+    border-radius: 10px;
+    transition: 0.1s;
+}
+
+.nav-bar ul {
+    padding: 10px 20px;
+    margin-right: 50px;
+    background-color: rgb(0, 0, 0, 0.2);
+    backdrop-filter: blur(20px);
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+video {
+    margin-right: 700px !important;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color:white;
+    border-radius: 10px;
+    padding: 20px 15px;
+    box-sizing: border-box;
+}
+
+.isi {
+    width: 500px;
+    height: 250px;
+    text-align: center;
+    margin: 20% 30%;
+}
+
+.atas {
+    padding-top: 25px;
+}
+
+.nama a .nama1, .nama2 {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.nama .nama2 a:active {
+    color: blueviolet;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.grib {
+    margin: auto;
+    padding-top: 10px;
+}
+
+.subscribe, .login {
+    padding: 20px 5px;
+    margin: 10px;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 200px;
+    height: 70px;
+    border: 1px solid blueviolet;
+    border-radius: 10px;
+    transition: 0.2s;
+    transition-timing-function: ease-out;
+    color: white;
+}
+
+
+.Nama {
+    width: 30%;
+    margin-left: 35%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.satu {
+    font-weight:500;
+    border-bottom: 2px solid blueviolet;
+}
+
+.dua {
+    padding-left: -5px;
+    font-weight: 1000;
+    color: blueviolet;
+}
+
+.subscribe:hover, .login:hover {
+    background-color: rgb(138, 43, 226);
+    box-shadow: 0 4px 8px 0 rgba(53, 33, 236, 0.2), 0 6px 20px 0 rgba(53, 33, 236, 0.2);
+}
+
+.subscribe:active, .login:active {
+   transform: scale(0.9);
+}
+
+.nav-bar ul li:hover {
+    background-color: blueviolet;
+    box-shadow: 0 4px 8px 0 rgba(53, 33, 236, 0.2), 0 6px 20px 0 rgba(53, 33, 236, 0.2);
+}
+
+.nav-bar ul li:active {
+    transform: scale(0.9);
+}
+
+.beranda {
+    padding-top: 100px;
+}
+
+.beranda, .profil, .tentang, .galeri, .berita {
+    background-color: rgb(0, 0, 0, 0.2);
+    text-align: justify;
+    width: 98%;
+    margin: 1%;
+    margin-top: 100px;
+    border-radius: 30px;
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+video{
+    margin-left: 450px;
+}
+
+.audio_video {
+    text-align: center;
+    background-color: rgb(0, 0, 0, 0.2);
+    width: 98%;
+    margin: 1%;
+    margin-top: 100px;
+    border-radius: 30px;
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+#berita {
+    height: 100px;
+}
+
+
+.galeri {
+    text-align: center;
+    padding: 50px 70px;
+}
+
+
+.isi_galeri {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-content: center;
+    grid-row-gap: 15px;
+}
+
+.isi_galeri > div {
+    background-image: url('pexels-eberhardgross-1421903.jpg');
+    background-size: cover;
+    margin: 20px auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.copy {
+    width: 100%;
+    margin-left: -20px;
+    text-align: center;
+    padding: 25px 25px;
+    background-color: rgb(0, 0, 0, 0.2);
+    backdrop-filter: blur(20px);
+    margin-bottom: -30px;
+}
